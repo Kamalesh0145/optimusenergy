@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Confer - Consulting Website Template Free Download</title>
+        <title>optimusenergy.in</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Consulting Website Template Free Download" name="keywords">
         <meta content="Consulting Website Template Free Download" name="description">
@@ -59,8 +59,11 @@
 
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">Power Solutions</a>
+                    <div class="container-fluid">
+        <a href="index.php" class="navbar-brand">
+            <img src="img/optimus_energy.png" style="height: 100px; width:50px; margin-right: 10px;">
+            <span class="logo-text">OPTIMUS ENERGY</span> 
+        </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -73,13 +76,13 @@
                         <!-- <a href="feature.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'feature.php') ? 'active' : ''; ?>">Feature</a>
                         <a href="advisor.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'advisor.php') ? 'active' : ''; ?>">Advisor</a>
                         <a href="review.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'review.php') ? 'active' : ''; ?>">Review</a> -->
-                        <div class="nav-item dropdown">
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
                                 <a href="blog.php" class="dropdown-item">Blog Page</a>
                                 <a href="single.php" class="dropdown-item">Single Page</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="contact.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>">Contact</a>
                     </div>
                 </div>

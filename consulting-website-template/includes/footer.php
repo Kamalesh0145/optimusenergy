@@ -7,7 +7,11 @@
                             <div class="col-md-6">
                                 <div class="footer-contact">
                                     <h2>Our Head Office</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>12/94,Sathiyamoorthy Nagar,Thomas Cross Road,Opp.Central Warehouse,Ellis Nagar,Maduari-625016</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>12/94.Sathiyamoorthy Nagar<br>
+                                        Thomas Cross Road<br>
+                                        Opp.Central Warehouse<br>
+                                        Ellis Nagar<br>
+                                        Maduari-625016</p>
                                     <p><i class="fa fa-phone-alt"></i>+91 99943 44816</p>
                                     <p><i class="fa fa-envelope"></i>  admin@optimusenergy.in
                                                                      technical@optimusenergy.in</p>
@@ -23,11 +27,10 @@
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">Home</a>
+                                    <a href="">About</a>
+                                    <a href="">Service</a>
+                                    <a href="">contact</a>
                                 </div>
                             </div>
                         </div>
@@ -52,13 +55,13 @@
                         <p><a href="#">optimusenergy.in</a>-Copyright ©2025 All rights reserved.</p>
                     </div>
            <div class="col-md-6">
-  <p>
-    Designed By 
-    <a href="javascript:void(0);" style="pointer-events: none; color: inherit; text-decoration: none;">
-      SmartiApps Technologies
-    </a>
-  </p>
-</div>
+              <p>
+                Designed By 
+                <a href="javascript:void(0);" style="pointer-events: none; color: inherit; text-decoration: none;">
+                  SmartiApps Technologies
+                </a>
+              </p>
+            </div>
 
 
                 </div>

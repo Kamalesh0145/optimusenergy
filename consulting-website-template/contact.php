@@ -13,9 +13,23 @@
                             <div class="contact-icon">
                                 <i class="fa fa-map-marker-alt"></i>
                             </div>
-                            <div class="contact-text">
+                               <div class="contact-text">
                                 <h3>Our Head Office</h3>
-                                <p>12/94,Sathiyamoorthy Nagar,Thomas Cross Road,Opp.Central Warehouse,Ellis Nagar,Maduari-625016</p>
+                                <p>   12/94.Sathiyamoorthy Nagar<br>
+                                   Thomas Cross Road<br>
+                                        Opp.Central Warehouse<br>
+                                        Ellis Nagar<br>
+                                        Maduari-625016</p>
+                                    
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Our Branch Office</h3>
+                                <p>Ellis Nagar,Maduari-625016</p>
                             </div>
                         </div>
                         <div class="contact-info">

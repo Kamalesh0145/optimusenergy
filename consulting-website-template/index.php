@@ -1,57 +1,71 @@
 <?php include 'includes/header.php'; ?>
 
         <!-- Carousel Start -->
-        <div class="carousel">
-            <div class="container-fluid">
-                <div class="owl-carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-1.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Fastest Way to Achieve Success</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                                <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i class="fa fa-play"></i>Watch Video</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-2.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Your Success Our Achievement</h1>
-                            <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                                <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i class="fa fa-play"></i>Watch Video</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Your Business Our Effort</h1>
-                            <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                                <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i class="fa fa-play"></i>Watch Video</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="carousel">
+  <div class="container-fluid">
+    <div class="owl-carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item">
+        <div class="carousel-img">
+          <img src="img/carousel-1.jpg" alt="Smart Solutions">
         </div>
+        <div class="carousel-text">
+          <h1>Smart Energy Solutions</h1>
+          <p>
+            Optimize your energy consumption with our cutting-edge management systems designed for businesses and industries.
+          </p>
+          <div class="carousel-btn">
+            <a class="btn" href="#services"><i class="fa fa-link"></i>Get Started</a>
+            <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+              <i class="fa fa-play"></i>Watch Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-img">
+          <img src="img/carousel-2.jpg" alt="Consulting Services">
+        </div>
+        <div class="carousel-text">
+          <h1>Expert Consulting Services</h1>
+          <p>
+            Our experienced consultants guide your business to maximize efficiency, reduce costs, and grow sustainably.
+          </p>
+          <div class="carousel-btn">
+            <a class="btn" href="#services"><i class="fa fa-link"></i>Get Started</a>
+            <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+              <i class="fa fa-play"></i>Watch Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-img">
+          <img src="img/carousel-3.jpg" alt="Business Growth">
+        </div>
+        <div class="carousel-text">
+          <h1>Drive Business Growth</h1>
+          <p>
+            Leverage innovative strategies and smart technologies to scale your business and achieve measurable results.
+          </p>
+          <div class="carousel-btn">
+            <a class="btn" href="#services"><i class="fa fa-link"></i>Get Started</a>
+            <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+              <i class="fa fa-play"></i>Watch Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
         <!-- Carousel End -->
 
         <!-- Video Modal Start-->
@@ -82,7 +96,9 @@
                 <div class="fact-item text-center">
                     <img src="img/icon-4.png" alt="Icon">
                     <h2>Expert Engineers</h2>
-                    <p>Our team consists of skilled engineers specializing in energy management, predictive maintenance, and industrial automation.</p>
+                    <p>
+Our team consists of skilled engineers in energy management, predictive maintenance, and industrial automation.
+                    </p>
                 </div>
             </div>
 
@@ -172,196 +188,196 @@ function toggleText() {
         </div>
         <!-- About End -->
 
-<div class="service">
-  <div class="container">
-    <div class="section-header">
-  <p>Energy Solutions</p>
-  <h2>Our Expert Services</h2>
+        <div class="service">
+          <div class="container">
+            <div class="section-header">
+          <p>Energy Solutions</p>
+          <h2>Our Expert Services</h2>
 
-    </div>
-    <div class="row">
-      <!-- 1. Harmonics Study -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-1.png" alt="Icon">
-          <h3>HARMONICS STUDY</h3>
-          <p>
-            Analyze and mitigate power quality issues caused by harmonic distortions.
-            <span class="more-text" style="display: none;">
-              We provide detailed reports, corrective recommendations, and implementation strategies to ensure stable and efficient electrical systems.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+            </div>
+            <div class="row">
+              <!-- 1. Harmonics Study -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-1.png" alt="Icon">
+                    <h3>HARMONICS ANALYSIS AND STUDY</h3>           <!-- 22 letters -->
+                    Analyze and mitigate power quality issues caused by harmonic distortions.
+                    <span class="more-text" style="display: none;">
+                      We provide detailed reports, corrective recommendations, and implementation strategies to ensure stable and efficient electrical systems.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 2. Energy Audit -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-2.png" alt="Icon">
-          <h3>ENERGY AUDIT</h3>
-          <p>
-            Evaluate energy consumption to identify inefficiencies across your facilities.
-            <span class="more-text" style="display: none;">
-              We provide audit reports, actionable recommendations, and implementation strategies to optimize energy usage and reduce operational costs.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 2. Energy Audit -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-2.png" alt="Icon">
+                  <h3>ENERGY AUDIT AND ASSESSMENT</h3>           <!-- 23 letters -->
+                  <p>
+                    Evaluate energy consumption to identify inefficiencies across your facilities.
+                    <span class="more-text" style="display: none;">
+                      We provide audit reports, actionable recommendations, and implementation strategies to optimize energy usage and reduce operational costs.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 3. Motor Vibration Analysis -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-3.png" alt="Icon">
-          <h3>MOTOR VIBRATION ANALYSIS</h3>
-          <p>
-            Detect mechanical issues early to prevent breakdowns and extend equipment life.
-            <span class="more-text" style="display: none;">
-              Using advanced sensors and data analysis, we provide actionable insights to optimize motor performance and reduce maintenance costs.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 3. Motor Vibration Analysis -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-3.png" alt="Icon">
+                <h3>MOTOR VIBRATION ANALYSIS SYSTEM</h3>      <!-- 24 letters -->
+                  <p>
+                    Detect mechanical issues early to prevent breakdowns and extend equipment life.
+                    <span class="more-text" style="display: none;">
+                      Using advanced sensors and data analysis, we provide actionable insights to optimize motor performance and reduce maintenance costs.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 4. Energy Management Systems -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-4.png" alt="Icon">
-          <h3>ENERGY MANAGEMENT SYSTEMS (EMS)</h3>
-          <p>
-            Monitor, control, and optimize energy consumption for maximum efficiency.
-            <span class="more-text" style="display: none;">
-              From real-time tracking to automated reporting, we ensure sustainable energy management and cost savings for your organization.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 4. Energy Management Systems -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-4.png" alt="Icon">
+                <h3>ENERGY MANAGEMENT SYSTEM STUDY</h3>       <!-- 23 letters -->
+                  <p>
+                    Monitor and optimize energy consumption efficiently.
+                    <span class="more-text" style="display: none;">
+                      From real-time tracking to automated reporting, we ensure sustainable energy management and cost savings for your organization.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 5. IoT Solutions -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-5.png" alt="Icon">
-          <h3>IoT SOLUTIONS</h3>
-          <p>
-            Connect devices and systems for smarter, data-driven operations.
-            <span class="more-text" style="display: none;">
-              By integrating sensors, analytics, and automation, we enhance operational efficiency, safety, and predictive maintenance capabilities.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 5. IoT Solutions -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-5.png" alt="Icon">
+                   <h3>IoT DEVICE CONNECTIVITY SYSTEM</h3>       <!-- 23 letters -->
+                  <p>
+                    Connect devices for smarter operations.
+                    <span class="more-text" style="display: none;">
+                      By integrating sensors, analytics, and automation, we enhance operational efficiency, safety, and predictive maintenance capabilities.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 6. Power Quality Solutions -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-6.png" alt="Icon">
-          <h3>POWER QUALITY SOLUTIONS</h3>
-          <p>
-            Ensure stable and reliable power for your business operations.
-            <span class="more-text" style="display: none;">
-              We analyze electrical systems, identify disturbances, and implement corrective measures to prevent downtime and equipment damage.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 6. Power Quality Solutions -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-6.png" alt="Icon">
+                 <h3>POWER QUALITY CONTROL SYSTEM</h3>         <!-- 23 letters -->
+                  <p>
+                    Ensure stable and reliable power for your business operations.
+                    <span class="more-text" style="display: none;">
+                      We analyze electrical systems, identify disturbances, and implement corrective measures to prevent downtime and equipment damage.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 7. Smart Grid Solutions -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-7.png" alt="Icon">
-          <h3>SMART GRID SOLUTIONS</h3>
-          <p>
-            Modernize your electrical network for better reliability and efficiency.
-            <span class="more-text" style="display: none;">
-              We integrate advanced monitoring, automated controls, and predictive analytics to optimize energy distribution and reduce outages.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 7. Smart Grid Solutions -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-7.png" alt="Icon">
+                 <h3>SMART GRID MONITORING SYSTEM</h3>         <!-- 23 letters -->
+                  <p>
+                    Modernize your electrical network for better reliability and efficiency.
+                    <span class="more-text" style="display: none;">
+                      We integrate advanced monitoring, automated controls, and predictive analytics to optimize energy distribution and reduce outages.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 8. Renewable Energy Integration -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-8.png" alt="Icon">
-          <h3>RENEWABLE ENERGY INTEGRATION</h3>
-          <p>
-            Adopt solar, wind, and other green energy sources effectively.
-            <span class="more-text" style="display: none;">
-              We provide system design, feasibility studies, and implementation strategies to maximize energy savings and sustainability.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 8. Renewable Energy Integration -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-8.png" alt="Icon">
+                  <h3>RENEWABLE ENERGY INTEGRATION PLAN</h3>    <!-- 24 letters -->
+                  <p>
+                    Adopt solar, wind, and other green energy sources effectively.
+                    <span class="more-text" style="display: none;">
+                      We provide system design, feasibility studies, and implementation strategies to maximize energy savings and sustainability.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 9. Energy Storage Solutions -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-9.png" alt="Icon">
-          <h3>ENERGY STORAGE SOLUTIONS</h3>
-          <p>
-            Efficiently store excess energy for later use.
-            <span class="more-text" style="display: none;">
-              We design and implement battery storage systems to optimize energy consumption, reduce costs, and improve grid reliability.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 9. Energy Storage Solutions -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-9.png" alt="Icon">
+                 <h3>ENERGY STORAGE CONTROL SYSTEM</h3>        <!-- 23 letters -->
+                  <p>
+                   Efficiently store all surplus electrical energy safely and reliably for long-term future use.
 
-      <!-- 10. Predictive Maintenance -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-10.png" alt="Icon">
-          <h3>PREDICTIVE MAINTENANCE</h3>
-          <p>
-            Prevent downtime by identifying equipment issues before they occur.
-            <span class="more-text" style="display: none;">
-              Using advanced sensors, analytics, and AI, we predict equipment failures and provide actionable insights to optimize operations.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+                    <span class="more-text" style="display: none;">
+                      We design and implement battery storage systems to optimize energy consumption, reduce costs, and improve grid reliability.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 11. Industrial Automation -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-1.png" alt="Icon">
-          <h3>INDUSTRIAL AUTOMATION</h3>
-          <p>
-            Streamline manufacturing and operational processes for higher productivity.
-            <span class="more-text" style="display: none;">
-              We integrate IoT, robotics, and control systems to reduce errors, improve efficiency, and enhance operational performance.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
-        </div>
-      </div>
+              <!-- 10. Predictive Maintenance -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-10.png" alt="Icon">
+                 <h3>PREDICTIVE MAINTENANCE CONTROL PLAN</h3>  <!-- 24 letters -->
+                  <p>
+                    Prevent downtime by identifying equipment issues before they occur.
+                    <span class="more-text" style="display: none;">
+                      Using advanced sensors, analytics, and AI, we predict equipment failures and provide actionable insights to optimize operations.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
 
-      <!-- 12. Energy Compliance & Regulations -->
-      <div class="col-lg-3 col-md-6">
-        <div class="service-item">
-          <img src="img/icon-2.png" alt="Icon">
-          <h3>ENERGY COMPLIANCE & REGULATIONS</h3>
-          <p>
-            Ensure operations meet local and international energy standards.
-            <span class="more-text" style="display: none;">
-              We provide audits, certification assistance, and regulatory guidance to keep your business compliant, efficient, and future-ready.
-            </span>
-          </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+              <!-- 11. Industrial Automation -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-1.png" alt="Icon">
+                 <h3>INDUSTRIAL AUTOMATION CONTROL PLAN</h3>   <!-- 24 letters -->
+                  <p>
+                    Streamline manufacturing and operational processes for higher productivity.
+                    <span class="more-text" style="display: none;">
+                      We integrate IoT, robotics, and control systems to reduce errors, improve efficiency, and enhance operational performance.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+              </div>
+
+              <!-- 12. Energy Compliance & Regulations -->
+              <div class="col-lg-3 col-md-6">
+                <div class="service-item">
+                  <img src="img/icon-2.png" alt="Icon">
+                 <h3>ENERGY COMPLIANCE REGULATION PLAN</h3>    <!-- 24 letters -->
+                  <p>
+                  Ensure all business operations meet strict local and international energy standards.
+                    <span class="more-text" style="display: none;">
+                      We provide audits, certification assistance, and regulatory guidance to keep your business compliant, efficient, and future-ready.
+                    </span>
+                  </p>
+                  <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
-  </div>
-</div>
         <!-- Service End -->
         <!-- Feature Start -->
         <div class="feature">
@@ -569,7 +585,11 @@ function toggleText() {
                             </div>
                             <div class="contact-text">
                                 <h3>Our Head Office</h3>
-                                <p>12/94,Sathiyamoorthy Nagar,Thomas Cross Road,Opp.Central Warehouse,Ellis Nagar,Maduari-625016</p>
+                                <p>   12/94.Sathiyamoorthy Nagar<br>
+                                   Thomas Cross Road<br>
+                                        Opp.Central Warehouse<br>
+                                        Ellis Nagar<br>
+                                        Maduari-625016</p>
                             </div>
                         </div>
                         <div class="contact-info">
@@ -633,111 +653,111 @@ function toggleText() {
                 </div>
            <div class="owl-carousel blog-carousel">
 
-  <!-- Blog 1 -->
-  <div class="blog-item">
-    <div class="blog-img">
-      <img src="img/blog-1.jpg" alt="Blog">
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">The Future of Energy Efficiency in Modern Industries</h2>
-      <div class="blog-meta">
-        <i class="fa fa-list-alt"></i>
-        <a href="">Energy Management</a>
-        <i class="fa fa-calendar-alt"></i>
-        <p>10-Oct-2025</p>
-      </div>
-      <div class="blog-text">
-        <p>
-          As industries continue to modernize, energy efficiency has become a critical focus area for sustainable growth and cost reduction.
-          <span class="more-text" style="display: none;">
-            With the integration of smart grids, IoT monitoring, and AI-driven analytics, companies can now optimize power usage, reduce waste, and achieve higher production efficiency while minimizing environmental impact.
-          </span>
-        </p>
-        <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
-      </div>
-    </div>
-  </div>
+          <!-- Blog 1 -->
+                <div class="blog-item">
+                  <div class="blog-img">
+                    <img src="img/blog-1.jpg" alt="Blog">
+                  </div>
+                  <div class="blog-content">
+                    <h2 class="blog-title">The Future of Energy Efficiency in Modern Industries</h2>
+                    <div class="blog-meta">
+                      <i class="fa fa-list-alt"></i>
+                      <a href="">Energy Management</a>
+                      <i class="fa fa-calendar-alt"></i>
+                      <p>10-Oct-2025</p>
+                    </div>
+                    <div class="blog-text">
+                      <p>
+                        As industries continue to modernize, energy efficiency has become a critical focus area for sustainable growth and cost reduction.
+                        <span class="more-text" style="display: none;">
+                          With the integration of smart grids, IoT monitoring, and AI-driven analytics, companies can now optimize power usage, reduce waste, and achieve higher production efficiency while minimizing environmental impact.
+                        </span>
+                      </p>
+                      <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
+                    </div>
+                  </div>
+                </div>
 
-  <!-- Blog 2 -->
-  <div class="blog-item">
-    <div class="blog-img">
-      <img src="img/blog-2.jpg" alt="Blog">
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">How Digital Transformation Drives Business Success</h2>
-      <div class="blog-meta">
-        <i class="fa fa-list-alt"></i>
-        <a href="">Business Strategy</a>
-        <i class="fa fa-calendar-alt"></i>
-        <p>15-Oct-2025</p>
-      </div>
-      <div class="blog-text">
-        <p>
-          Digital transformation is reshaping how organizations operate, compete, and deliver value to customers.
-          <span class="more-text" style="display: none;">
-            From cloud adoption and automation to data-driven decision-making, businesses that embrace digital innovation gain agility, efficiency, and a strong competitive edge in today’s fast-changing markets.
-          </span>
-        </p>
-        <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
-      </div>
-    </div>
-  </div>
+                <!-- Blog 2 -->
+                <div class="blog-item">
+                  <div class="blog-img">
+                    <img src="img/blog-2.jpg" alt="Blog">
+                  </div>
+                  <div class="blog-content">
+                    <h2 class="blog-title">How Digital Transformation Drives Business Success</h2>
+                    <div class="blog-meta">
+                      <i class="fa fa-list-alt"></i>
+                      <a href="">Business Strategy</a>
+                      <i class="fa fa-calendar-alt"></i>
+                      <p>15-Oct-2025</p>
+                    </div>
+                    <div class="blog-text">
+                      <p>
+                        Digital transformation is reshaping how organizations operate, compete, and deliver value to customers.
+                        <span class="more-text" style="display: none;">
+                          From cloud adoption and automation to data-driven decision-making, businesses that embrace digital innovation gain agility, efficiency, and a strong competitive edge in today’s fast-changing markets.
+                        </span>
+                      </p>
+                      <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
+                    </div>
+                  </div>
+                </div>
 
-  <!-- Blog 3 -->
-  <div class="blog-item">
-    <div class="blog-img">
-      <img src="img/blog-3.jpg" alt="Blog">
-    </div>
-    <div class="blog-content">
-      <h2 class="blog-title">Sustainability and Innovation: The Path Forward</h2>
-      <div class="blog-meta">
-        <i class="fa fa-list-alt"></i>
-        <a href="">Sustainability</a>
-        <i class="fa fa-calendar-alt"></i>
-        <p>20-Oct-2025</p>
-      </div>
-      <div class="blog-text">
-        <p>
-          Sustainability is no longer an option—it’s a necessity. Businesses are now integrating eco-friendly technologies to create long-term value.
-          <span class="more-text" style="display: none;">
-            Through innovation and responsible practices, organizations can reduce their carbon footprint, enhance brand reputation, and build a resilient future for the next generation.
-          </span>
-        </p>
-        <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
-      </div>
-    </div>
-  </div>
+                <!-- Blog 3 -->
+                <div class="blog-item">
+                  <div class="blog-img">
+                    <img src="img/blog-3.jpg" alt="Blog">
+                  </div>
+                  <div class="blog-content">
+                    <h2 class="blog-title">Sustainability and Innovation: The Path Forward</h2>
+                    <div class="blog-meta">
+                      <i class="fa fa-list-alt"></i>
+                      <a href="">Sustainability</a>
+                      <i class="fa fa-calendar-alt"></i>
+                      <p>20-Oct-2025</p>
+                    </div>
+                    <div class="blog-text">
+                      <p>
+                        Sustainability is no longer an option—it’s a necessity. Businesses are now integrating eco-friendly technologies to create long-term value.
+                        <span class="more-text" style="display: none;">
+                          Through innovation and responsible practices, organizations can reduce their carbon footprint, enhance brand reputation, and build a resilient future for the next generation.
+                        </span>
+                      </p>
+                      <a class="btn read-more-btn" href="javascript:void(0);">Read More</a>
+                    </div>
+                  </div>
+                </div>
 
-</div>
-            </div>
-        </div>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.read-more-btn').forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      
-      let moreText;
-      
-      if (btn.closest('.service-item')) {
-        const paragraph = btn.closest('.service-item').querySelector('p');
-        moreText = paragraph.querySelector('.more-text');
-      }
-      else if (btn.closest('.blog-item')) {
-        moreText = btn.parentElement.querySelector('.more-text');
-      }
-      else {
-        moreText = btn.parentElement.querySelector('.more-text');
-      }
-      
-      if (moreText) {
-        const isHidden = moreText.style.display === 'none' || moreText.style.display === '';
-        moreText.style.display = isHidden ? 'inline' : 'none';
-        btn.textContent = isHidden ? 'Read Less' : 'Read More';
-      }
-    });
-  });
-});
-</script>
+              </div>
+                          </div>
+                      </div>
+              <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                document.querySelectorAll('.read-more-btn').forEach(btn => {
+                  btn.addEventListener('click', function(e) {
+                    e.preventDefault();
 
-<?php include 'includes/footer.php'; ?>
+                    let moreText;
+
+                    if (btn.closest('.service-item')) {
+                      const paragraph = btn.closest('.service-item').querySelector('p');
+                      moreText = paragraph.querySelector('.more-text');
+                    }
+                    else if (btn.closest('.blog-item')) {
+                      moreText = btn.parentElement.querySelector('.more-text');
+                    }
+                    else {
+                      moreText = btn.parentElement.querySelector('.more-text');
+                    }
+
+                    if (moreText) {
+                      const isHidden = moreText.style.display === 'none' || moreText.style.display === '';
+                      moreText.style.display = isHidden ? 'inline' : 'none';
+                      btn.textContent = isHidden ? 'Read Less' : 'Read More';
+                    }
+                  });
+                });
+              });
+              </script>
+
+              <?php include 'includes/footer.php'; ?>
