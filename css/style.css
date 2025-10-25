@@ -164,6 +164,81 @@ a:focus {
     }
 }
 
+/* Mobile Top Bar Styles */
+@media (max-width: 991.98px) {
+    .top-bar {
+        height: auto !important;
+        padding: 8px 15px !important;
+    }
+    
+    .top-bar .top-bar-left {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        margin-bottom: 8px;
+    }
+    
+    .top-bar .text {
+        margin-bottom: 5px !important;
+        padding: 2px 0 !important;
+        border: none !important;
+        height: auto !important;
+    }
+    
+    .top-bar .text h2 {
+        font-size: 12px !important;
+        margin: 0 !important;
+    }
+    
+    .top-bar .text p {
+        font-size: 11px !important;
+        margin: 0 !important;
+    }
+    
+    .top-bar .text i {
+        font-size: 12px !important;
+        margin-right: 3px !important;
+    }
+    
+    .top-bar .top-bar-right {
+        justify-content: flex-start !important;
+    }
+    
+    .top-bar .social {
+        height: auto !important;
+    }
+    
+    .top-bar .social a {
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 12px !important;
+        border: none !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .top-bar {
+        padding: 5px 10px !important;
+    }
+    
+    .top-bar .text h2 {
+        font-size: 11px !important;
+    }
+    
+    .top-bar .text p {
+        font-size: 10px !important;
+    }
+    
+    .top-bar .text i {
+        font-size: 11px !important;
+    }
+    
+    .top-bar .social a {
+        width: 22px !important;
+        height: 22px !important;
+        font-size: 11px !important;
+    }
+}
+
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -194,6 +269,23 @@ a:focus {
 .navbar .navbar-brand img {
     max-width: 100%;
     max-height: 40px;
+}
+
+.navbar-logo {
+    height: 40px !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    object-fit: contain !important;
+    max-width: none !important;
+    max-height: 40px !important;
+}
+
+.logo-text {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -246,16 +338,101 @@ a:focus {
 
 @media (max-width: 991.98px) {   
     .navbar {
-        padding: 15px;
+        padding: 15px !important;
         background: #092a49 !important;
     }
     
+    .navbar .navbar-brand {
+        display: flex !important;
+        align-items: center !important;
+        font-size: 16px !important;
+        line-height: 1.2 !important;
+        flex-direction: row !important;
+    }
+    
+    .navbar-logo {
+        height: 35px !important;
+        width: auto !important;
+        margin-right: 8px !important;
+        max-height: 35px !important;
+    }
+    
+    .logo-text {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.5px !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+    
     .navbar a.nav-link {
-        padding: 5px;
+        padding: 8px 15px !important;
+        font-size: 14px !important;
+        text-align: center !important;
     }
     
     .navbar .dropdown-menu {
-        box-shadow: none;
+        box-shadow: none !important;
+    }
+    
+    .navbar-collapse {
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 10px 15px !important;
+    }
+    
+    .navbar .navbar-brand {
+        font-size: 14px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .navbar-logo {
+        height: 30px !important;
+        margin-right: 6px !important;
+        max-height: 30px !important;
+    }
+    
+    .logo-text {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+    
+    .navbar a.nav-link {
+        padding: 6px 12px !important;
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar .navbar-brand {
+        font-size: 12px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .navbar-logo {
+        height: 25px !important;
+        margin-right: 5px !important;
+        max-height: 25px !important;
+    }
+    
+    .logo-text {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+    
+    .navbar a.nav-link {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
     }
 }
 

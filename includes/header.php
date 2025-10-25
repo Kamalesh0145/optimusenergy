@@ -21,15 +21,15 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 </head>
 
 <body>
     <!-- Top Bar Start -->
-    <div class="top-bar d-none d-md-block">
+    <div class="top-bar">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 col-12">
                     <div class="top-bar-left">
                         <div class="text">
                             <i class="far fa-clock"></i>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-12">
                     <div class="top-bar-right">
                         <div class="social">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -62,7 +62,7 @@
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
             <a href="index.php" class="navbar-brand">
-                <img src="img/optimus_energy.png" style="height: 100px; width:50px; margin-right: 10px;">
+                <img src="img/optimus_energy.png" class="navbar-logo">
                 <span class="logo-text">OPTIMUS ENERGY</span>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
