@@ -1,12 +1,12 @@
 <?php include 'includes/header.php'; ?>
 
-        <!-- Blog Start -->
-   <!-- Blog Start -->
+<!-- Blog Start -->
+<!-- Blog Start -->
 <div class="blog mt-125">
   <div class="container">
     <div class="section-header">
-<p>Expert Insights</p>
-<h2>Latest Updates on Energy Management & Industrial Solutions</h2>
+      <p>Expert Insights</p>
+      <h2>Latest Updates on Energy Management & Industrial Solutions</h2>
 
     </div>
 
@@ -128,6 +128,6 @@
   });
 </script>
 
-        <!-- Blog End -->
+<!-- Blog End -->
 
 <?php include 'includes/footer.php'; ?>
