@@ -31,9 +31,12 @@
                                     <a href="about.php">About</a>
                                     <a href="service.php">Service</a>
                                     <a href="contact.php">Contact</a>
+
                                 </div>
                             </div>
-
+                            <a href="https://wa.me/919994344816" class="whatsapp_float" target="_blank">
+                                <i class="fab fa-whatsapp whatsapp-icon"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -42,14 +45,17 @@
                             <p>
                                 Subscribe to our newsletter to stay updated with the latest industry insights, technology trends, and exclusive updates about our services. Join our community and never miss important news or events.
                             </p>
+
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
                                 <button class="btn">Submit</button>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
@@ -65,10 +71,14 @@
                     </div>
 
 
+
                 </div>
             </div>
         </div>
         <!-- Footer End -->
+        <!-- WhatsApp Floating Button -->
+
+
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 

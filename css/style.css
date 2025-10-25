@@ -1686,6 +1686,30 @@ a:focus {
 .footer .copyright p a:hover {
     color: #0796fe;
 }
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 7px;
+    right: 7px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #999;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp_float:hover {
+    background-color: #128c7e;
+    text-decoration: none;
+}
+
+.whatsapp-icon {
+    margin-top: 14px;
+}
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
