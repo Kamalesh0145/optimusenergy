@@ -65,15 +65,20 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="section-header">
-                    <p>Our Expertise</p>
-                    <h2>Why Choose Our Energy Solutions?</h2>
-
-                </div>
                 <p>
-                    With over two decades of proven experience, we are committed to delivering innovative, reliable, and results-driven solutions. Our team combines technical expertise with strategic insight to help businesses achieve sustainable growth and operational excellence. We focus on quality, transparency, and customer satisfaction in every project we undertake, ensuring long-term success and trusted partnerships.
+                    With over two decades of proven experience, we are committed to delivering innovative, reliable, and results-driven solutions.
+                    Our team combines technical expertise with strategic insight to help businesses achieve sustainable growth and operational excellence.
+                    We focus on quality, transparency, and customer satisfaction in every project we undertake, ensuring long-term success and trusted partnerships.
+                    <br><br>
+                    • Our experts continuously adapt to the latest technologies and energy standards to deliver future-ready solutions. <br>
+                    • We design tailor-made strategies to optimize energy efficiency and reduce operational costs. <br>
+                    • Every project undergoes rigorous quality checks to ensure maximum performance and reliability. <br>
+                    • We emphasize eco-friendly and sustainable practices to minimize environmental impact. <br>
+                    • Our client-focused service ensures seamless communication and satisfaction. <br>
+                    • We foster long-term partnerships built on trust and measurable results. <br>
                 </p>
-                <div class="row counters">
+
+                <!-- <div class="row counters">
                     <div class="col-6">
                         <i class="fa fa-user"></i>
                         <div class="counters-text">
@@ -102,7 +107,7 @@
                             <p>Running Projects</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
