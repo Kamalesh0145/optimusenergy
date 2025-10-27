@@ -54,7 +54,7 @@
 </div>
 <!-- About End -->
 
-
+  
 <!-- Feature Start -->
 <div class="feature">
     <div class="container">
@@ -65,6 +65,11 @@
                 </div>
             </div>
             <div class="col-md-6">
+                   <div class="section-header">
+                    <p>Our Expertise</p>
+                    <h2>Why Choose Our Energy Solutions?</h2>
+
+                </div>
                 <p>
                     With over two decades of proven experience, we are committed to delivering innovative, reliable, and results-driven solutions.
                     Our team combines technical expertise with strategic insight to help businesses achieve sustainable growth and operational excellence.
@@ -78,181 +83,82 @@
                     • We foster long-term partnerships built on trust and measurable results. <br>
                 </p>
 
-                <!-- <div class="row counters">
-                    <div class="col-6">
-                        <i class="fa fa-user"></i>
-                        <div class="counters-text">
-                            <h2 data-toggle="counter-up">100</h2>
-                            <p>Our Staffs</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <i class="fa fa-users"></i>
-                        <div class="counters-text">
-                            <h2 data-toggle="counter-up">200</h2>
-                            <p>Our Clients</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <i class="fa fa-check"></i>
-                        <div class="counters-text">
-                            <h2 data-toggle="counter-up">300</h2>
-                            <p>Completed Projects</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <i class="fa fa-running"></i>
-                        <div class="counters-text">
-                            <h2 data-toggle="counter-up">400</h2>
-                            <p>Running Projects</p>
-                        </div>
-                    </div>
-                </div> -->
+           
             </div>
         </div>
     </div>
 </div>
-<!-- Feature End -->
 
-
-<!-- Testimonial Start -->
-<div class="testimonial">
-    <div class="container">
-        <div class="section-header">
-            <p>Client Testimonials</p>
-            <h2>Trusted by Businesses for Reliable Energy Solutions</h2>
-
-        </div>
-
-        <div class="owl-carousel testimonials-carousel">
-
-            <!-- Testimonial 1 -->
-            <div class="testimonial-item">
-                <img src="img/testimonial-1.jpg" alt="Image">
-                <p>
-                    “The team delivered outstanding results with professionalism and efficiency. Their solutions helped streamline our operations and save valuable resources.”
-                </p>
-                <h2>Rajesh Kumar</h2>
-                <h3>Managing Director, RK Solutions</h3>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="testimonial-item">
-                <img src="img/testimonial-2.jpg" alt="Image">
-                <p>
-                    “Excellent service from start to finish! The project was completed on time and exceeded our expectations. Highly recommended for any business.”
-                </p>
-                <h2>Priya Sharma</h2>
-                <h3>Marketing Head, InnovateX</h3>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="testimonial-item">
-                <img src="img/testimonial-3.jpg" alt="Image">
-                <p>
-                    “Implementing their solutions has significantly improved our workflow and productivity. The team is responsive, knowledgeable, and supportive at every step.”
-                </p>
-                <h2>Arun Patel</h2>
-                <h3>Operations Manager, NexaCorp</h3>
-            </div>
-
-            <!-- Testimonial 4 -->
-            <div class="testimonial-item">
-                <img src="img/testimonial-4.jpg" alt="Image">
-                <p>
-                    “A highly professional team that truly understands client needs. Their dedication and innovative approach helped our company achieve measurable success.”
-                </p>
-                <h2>Sneha Reddy</h2>
-                <h3>CEO, BrightWave Technologies</h3>
-            </div>
-
-        </div>
+<!-- Achievement Start -->
+<section class="achievement-section py-5">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <p>Our Achievements</p>
+      <h2>Milestones That Define Our Success</h2>
+      <p>
+        We take pride in our journey of innovation, dedication, and excellence —
+        shaping a sustainable energy future.
+      </p>
     </div>
-</div>
 
-<!-- Testimonial End -->
-
-
-<!-- Team Start -->
-<div class="team">
-    <div class="container">
-        <div class="section-header">
-            <p>Our Experts</p>
-            <h2>Experienced Energy & Consulting Professionals</h2>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/team-1.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-text">
-                        <h2>Donald John</h2>
-                        <p>Founder & CEO</p>
-                        <div class="team-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/team-2.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-text">
-                        <h2>Adam Phillips</h2>
-                        <p>Chef Executive</p>
-                        <div class="team-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/team-3.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-text">
-                        <h2>Thomas Olsen</h2>
-                        <p>Chef Advisor</p>
-                        <div class="team-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="img/team-4.jpg" alt="Team Image">
-                    </div>
-                    <div class="team-text">
-                        <h2>James Alien</h2>
-                        <p>Advisor</p>
-                        <div class="team-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Achievement 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="img/Achive1.png" alt="Achievement 1" class="img-fluid rounded shadow">
+      </div>
+<div class="col-lg-6">
+        <h3>🏆 National Energy Excellence Award</h3>
+        <p>
+          Recognized for our outstanding contribution to the acceleration of renewable energy
+          solutions and national-level leadership in sustainable power generation.
+        </p>
+      </div>
     </div>
-</div>
-<!-- Team End -->
+
+    <!-- Achievement 2 -->
+    <div class="row align-items-center mb-5 flex-lg-row-reverse">
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="img/Achive2.png" alt="Achievement 2" class="img-fluid rounded shadow">
+      </div>
+ <div class="col-lg-6">
+        <h3>🔰 ISO 50001 Energy Management Certified</h3>
+        <p>
+          Certified for implementing a world-class **Energy Management System (EnMS)**,
+          ensuring continuous improvement, resource optimization, and compliance with global standards.
+        </p>
+      </div>
+    </div>
+
+    <!-- Achievement 3 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="img/Achive3.png" alt="Achievement 3" class="img-fluid rounded shadow">
+      </div>
+ <div class="col-lg-6">
+        <h3>💡 Cutting-Edge Smart Grid Technology</h3>
+        <p>
+          Awarded for our innovative development of a **real-time, AI-driven Smart Grid
+          solution**, setting a new industry benchmark for energy efficiency and operational intelligence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Achievement 4 -->
+    <div class="row align-items-center mb-5 flex-lg-row-reverse">
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="img/Achive4.png" alt="Achievement 4" class="img-fluid rounded shadow">
+      </div>
+<div class="col-lg-6">
+        <h3>🌱 GreenTech & Sustainability Leadership</h3>
+        <p>
+          Honored for our comprehensive efforts in adopting sustainable technology and
+          eco-friendly industrial processes that significantly reduce carbon footprint and drive a greener tomorrow.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Achievement End -->
+
 
 <?php include 'includes/footer.php'; ?>

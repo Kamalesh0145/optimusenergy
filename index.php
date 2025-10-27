@@ -195,18 +195,19 @@
       <h2>Our Expert Services</h2>
 
     </div>
+     <!-- Service Start -->
     <div class="row">
       <!-- 1. Harmonics Study -->
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-1.png" alt="Icon">
-          <h3>HARMONICS ANALYSIS AND STUDY</h3> <!-- 22 letters -->
+          <h3><a href="service.php?id=1">HARMONICS ANALYSIS AND STUDY</a></h3> <!-- 22 letters -->
           Analyze and mitigate power quality issues caused by harmonic distortions.
           <span class="more-text" style="display: none;">
             We provide detailed reports, corrective recommendations, and implementation strategies to ensure stable and efficient electrical systems.
           </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=1" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -214,14 +215,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-2.png" alt="Icon">
-          <h3>ENERGY AUDIT AND ASSESSMENT</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=2">ENERGY AUDIT AND ASSESSMENT</a></h3> <!-- 23 letters -->
           <p>
             Evaluate energy consumption to identify inefficiencies across your facilities.
             <span class="more-text" style="display: none;">
               We provide audit reports, actionable recommendations, and implementation strategies to optimize energy usage and reduce operational costs.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=2" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -229,14 +230,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-3.png" alt="Icon">
-          <h3>MOTOR VIBRATION ANALYSIS SYSTEM</h3> <!-- 24 letters -->
+          <h3><a href="service.php?id=3">MOTOR VIBRATION ANALYSIS SYSTEM</a></h3> <!-- 24 letters -->
           <p>
             Detect mechanical issues early to prevent breakdowns and extend equipment life.
             <span class="more-text" style="display: none;">
               Using advanced sensors and data analysis, we provide actionable insights to optimize motor performance and reduce maintenance costs.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=3" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -244,14 +245,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-4.png" alt="Icon">
-          <h3>ENERGY MANAGEMENT SYSTEM STUDY</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=4">ENERGY MANAGEMENT SYSTEM STUDY</a></h3> <!-- 23 letters -->
           <p>
             Monitor and optimize energy consumption efficiently.
             <span class="more-text" style="display: none;">
               From real-time tracking to automated reporting, we ensure sustainable energy management and cost savings for your organization.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=4" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -259,14 +260,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-5.png" alt="Icon">
-          <h3>IoT DEVICE CONNECTIVITY SYSTEM</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=5">IoT DEVICE CONNECTIVITY SYSTEM</a></h3> <!-- 23 letters -->
           <p>
             Connect devices for smarter operations.
             <span class="more-text" style="display: none;">
               By integrating sensors, analytics, and automation, we enhance operational efficiency, safety, and predictive maintenance capabilities.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=5" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -274,14 +275,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-6.png" alt="Icon">
-          <h3>POWER QUALITY CONTROL SYSTEM</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=6">POWER QUALITY CONTROL SYSTEM</a></h3> <!-- 23 letters -->
           <p>
             Ensure stable and reliable power for your business operations.
             <span class="more-text" style="display: none;">
               We analyze electrical systems, identify disturbances, and implement corrective measures to prevent downtime and equipment damage.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=6" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -289,14 +290,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-7.png" alt="Icon">
-          <h3>SMART GRID MONITORING SYSTEM</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=7">SMART GRID MONITORING SYSTEM</a></h3> <!-- 23 letters -->
           <p>
             Modernize your electrical network for better reliability and efficiency.
             <span class="more-text" style="display: none;">
               We integrate advanced monitoring, automated controls, and predictive analytics to optimize energy distribution and reduce outages.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=7" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -304,14 +305,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-8.png" alt="Icon">
-          <h3>RENEWABLE ENERGY INTEGRATION PLAN</h3> <!-- 24 letters -->
+          <h3><a href="service.php?id=8">RENEWABLE ENERGY INTEGRATION PLAN</a></h3> <!-- 24 letters -->
           <p>
             Adopt solar, wind, and other green energy sources effectively.
             <span class="more-text" style="display: none;">
               We provide system design, feasibility studies, and implementation strategies to maximize energy savings and sustainability.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=8" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -319,7 +320,7 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-9.png" alt="Icon">
-          <h3>ENERGY STORAGE CONTROL SYSTEM</h3> <!-- 23 letters -->
+          <h3><a href="service.php?id=9">ENERGY STORAGE CONTROL SYSTEM</a></h3> <!-- 23 letters -->
           <p>
             Efficiently store all surplus electrical energy safely and reliably for long-term future use.
 
@@ -327,7 +328,7 @@
               We design and implement battery storage systems to optimize energy consumption, reduce costs, and improve grid reliability.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=9" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -335,14 +336,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-10.png" alt="Icon">
-          <h3>PREDICTIVE MAINTENANCE CONTROL PLAN</h3> <!-- 24 letters -->
+          <h3><a href="service.php?id=10">PREDICTIVE MAINTENANCE CONTROL PLAN</a></h3> <!-- 24 letters -->
           <p>
             Prevent downtime by identifying equipment issues before they occur.
             <span class="more-text" style="display: none;">
               Using advanced sensors, analytics, and AI, we predict equipment failures and provide actionable insights to optimize operations.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=10" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -350,14 +351,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-1.png" alt="Icon">
-          <h3>INDUSTRIAL AUTOMATION CONTROL PLAN</h3> <!-- 24 letters -->
+          <h3><a href="service.php?id=11">INDUSTRIAL AUTOMATION CONTROL PLAN</a></h3> <!-- 24 letters -->
           <p>
             Streamline manufacturing and operational processes for higher productivity.
             <span class="more-text" style="display: none;">
               We integrate IoT, robotics, and control systems to reduce errors, improve efficiency, and enhance operational performance.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=11" class="read-more-btn">Read More</a>
         </div>
       </div>
 
@@ -365,14 +366,14 @@
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-2.png" alt="Icon">
-          <h3>ENERGY COMPLIANCE REGULATION PLAN</h3> <!-- 24 letters -->
+          <h3><a href="service.php?id=12">ENERGY COMPLIANCE REGULATION PLAN</a></h3> <!-- 24 letters -->
           <p>
             Ensure all business operations meet strict local and international energy standards.
             <span class="more-text" style="display: none;">
               We provide audits, certification assistance, and regulatory guidance to keep your business compliant, efficient, and future-ready.
             </span>
           </p>
-          <a href="javascript:void(0);" class="read-more-btn">Read More</a>
+          <a href="service.php?id=12" class="read-more-btn">Read More</a>
         </div>
       </div>
     </div>
@@ -441,6 +442,26 @@
   </div>
 </div>
 <!-- Feature End -->
+<!-- ===================== Clients Logo Section ===================== -->
+<section class="clients_area p_120">
+  <div class="container">
+    <div class="main_title text-center">
+      <h2>Our Trusted Partners</h2>
+      <p>We are proud to collaborate with industry-leading organizations worldwide.</p>
+    </div>
+    <div class="logo-slider">
+      <div class="logo-slide-track">
+        <div class="logo-slide"><img src="img/Customerlogo1.jpg" alt="Logo 1"></div>
+        <div class="logo-slide"><img src="img/Customerlogo2.jpg" alt="Logo 2"></div>
+        <div class="logo-slide"><img src="img/Customerlogo3.jpg" alt="Logo 3"></div>
+        <div class="logo-slide"><img src="img/Customerlogo4.jpg" alt="Logo 4"></div>
+        <div class="logo-slide"><img src="img/Customerlogo5.jpg" alt="Logo 5"></div>
+        <div class="logo-slide"><img src="img/Customerlogo6.jpg" alt="Logo 6"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Testimonial Start -->

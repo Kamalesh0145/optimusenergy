@@ -75,8 +75,8 @@
                     <a href="index.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">Home</a>
                     <a href="about.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'about.php') ? 'active' : ''; ?>">About</a>
                     <a href="service.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'service.php') ? 'active' : ''; ?>">Service</a>
-                    <!-- <a href="feature.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'feature.php') ? 'active' : ''; ?>">Feature</a>
-                        <a href="advisor.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'advisor.php') ? 'active' : ''; ?>">Advisor</a>
+                     <a href="feature.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'feature.php') ? 'active' : ''; ?>">Products</a>
+                       <!-- <a href="advisor.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'advisor.php') ? 'active' : ''; ?>">Advisor</a>
                         <a href="review.php" class="nav-item nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'review.php') ? 'active' : ''; ?>">Review</a> -->
                     <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
