@@ -1924,7 +1924,9 @@ a:focus {
 .download-link i {
     margin-right: 10px;
     font-size: 18px;
-}/* ==== Logo Carousel with Pause Between Rotations ==== */
+}
+
+/* ==== Logo customer Start ==== */
 .logo-slider {
   background: #f8f9fa;
   overflow: hidden;
@@ -1938,7 +1940,7 @@ a:focus {
 .logo-slide-track {
   display: flex;
   width: calc(250px * 12); /* 6 logos × 2 duplicates */
-  animation: scrollPause 60s ease-in-out infinite;
+  animation: scrollInfinite 30s linear infinite;
 }
 
 .logo-slide {
@@ -1963,36 +1965,31 @@ a:focus {
   transform: scale(1.05);
 }
 
-/* Keyframes with stop + move + stop rhythm */
-@keyframes scrollPause {
+/* Continuous scroll keyframes */
+@keyframes scrollInfinite {
   0% { transform: translateX(0); }
-  35% { transform: translateX(calc(-250px * 3)); } /* move half */
-  45% { transform: translateX(calc(-250px * 3)); } /* pause */
-  80% { transform: translateX(calc(-250px * 6)); } /* move again */
-  90% { transform: translateX(calc(-250px * 6)); } /* pause again */
-  100% { transform: translateX(calc(-250px * 6)); }
+  100% { transform: translateX(calc(-250px * 6)); } /* shift by total visible logos */
 }
 
 /* Responsive version */
 @media (max-width: 768px) {
   .logo-slide-track {
     width: calc(200px * 12);
-    animation: scrollPauseMobile 50s ease-in-out infinite;
+    animation: scrollInfiniteMobile 25s linear infinite;
   }
   .logo-slide {
     width: 200px;
   }
 }
 
-@keyframes scrollPauseMobile {
+@keyframes scrollInfiniteMobile {
   0% { transform: translateX(0); }
-  35% { transform: translateX(calc(-200px * 3)); }
-  45% { transform: translateX(calc(-200px * 3)); }
-  80% { transform: translateX(calc(-200px * 6)); }
-  90% { transform: translateX(calc(-200px * 6)); }
   100% { transform: translateX(calc(-200px * 6)); }
 }
+
+
 /* Logo completed */
+
 /* ==== Achievement Section ==== */
 .achievement-section {
   background: #f9fafc;

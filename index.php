@@ -195,21 +195,24 @@
       <h2>Our Expert Services</h2>
 
     </div>
-     <!-- Service Start -->
+    <!-- Service Start -->
     <div class="row">
       <!-- 1. Harmonics Study -->
       <div class="col-lg-3 col-md-6">
         <div class="service-item">
           <img src="img/icon-1.png" alt="Icon">
-          <h3><a href="service.php?id=1">HARMONICS ANALYSIS AND STUDY</a></h3> <!-- 22 letters -->
-          Analyze and mitigate power quality issues caused by harmonic distortions.
-          <span class="more-text" style="display: none;">
-            We provide detailed reports, corrective recommendations, and implementation strategies to ensure stable and efficient electrical systems.
-          </span>
+          <h3><a href="service.php?id=1">HARMONICS ANALYSIS AND STUDY</a></h3>
+          <p>
+            Analyze and mitigate power quality issues caused by harmonic distortions.
+            <span class="more-text" style="display: none;">
+              We provide detailed reports, corrective recommendations, and implementation strategies
+              to ensure stable and efficient electrical systems.
+            </span>
           </p>
           <a href="service.php?id=1" class="read-more-btn">Read More</a>
         </div>
       </div>
+
 
       <!-- 2. Energy Audit -->
       <div class="col-lg-3 col-md-6">
@@ -449,18 +452,15 @@
       <h2>Our Trusted Partners</h2>
       <p>We are proud to collaborate with industry-leading organizations worldwide.</p>
     </div>
-    <div class="logo-slider">
-      <div class="logo-slide-track">
-        <div class="logo-slide"><img src="img/Customerlogo1.jpg" alt="Logo 1"></div>
-        <div class="logo-slide"><img src="img/Customerlogo2.jpg" alt="Logo 2"></div>
-        <div class="logo-slide"><img src="img/Customerlogo3.jpg" alt="Logo 3"></div>
-        <div class="logo-slide"><img src="img/Customerlogo4.jpg" alt="Logo 4"></div>
-        <div class="logo-slide"><img src="img/Customerlogo5.jpg" alt="Logo 5"></div>
-        <div class="logo-slide"><img src="img/Customerlogo6.jpg" alt="Logo 6"></div>
-
+    <div class="logo-slide-track">
+  <div class="logo-slide"><img src="img/Customerlogo1.jpg" alt="Logo 1"></div>
+  <div class="logo-slide"><img src="img/Customerlogo2.jpg" alt="Logo 2"></div>
+  <div class="logo-slide"><img src="img/Customerlogo3.jpg" alt="Logo 3"></div>
+  <div class="logo-slide"><img src="img/Customerlogo4.jpg" alt="Logo 4"></div>
+  <div class="logo-slide"><img src="img/Customerlogo5.jpg" alt="Logo 5"></div>
+  <div class="logo-slide"><img src="img/Customerlogo6.jpg" alt="Logo 6"></div>
       </div>
     </div>
-  </div>
 </section>
 
 
