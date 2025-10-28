@@ -435,7 +435,7 @@ $current_service = isset($services[$service_id]) ? $services[$service_id] : $ser
       <div class="col-lg-8">
         <div class="service-detail-content">
           <div class="service-detail-img">
-            <img src="<?php echo $current_service['main_image']; ?>" alt="<?php echo $current_service['title']; ?>" style="width: 100%; border-radius: 10px; margin-bottom: 30px;">
+            <img src="<?php echo $current_service['main_image']; ?>" alt="<?php echo $current_service['title']; ?>" style="width: 60%; height: 300px; border-radius: 10px; margin-bottom: 30px; object-fit: cover;">
           </div>
 
           <h2><?php echo $current_service['title']; ?></h2>
