@@ -20,7 +20,7 @@
   </p>
 
   <p>
-    <i class="fa fa-phone-alt"></i> +91 99943 44816
+    <i class="fa fa-phone-alt"></i> +91 73388 99156
   </p>
 
   <p class="email-block">

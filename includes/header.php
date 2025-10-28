@@ -38,7 +38,7 @@
                         </div>
                         <div class="text">
                             <i class="fa fa-phone-alt"></i>
-                            <h2>91 99943 44816</h2>
+                            <h2>91 73388 99156</h2>
                             <p>For Appointment</p>
                         </div>
                     </div>
