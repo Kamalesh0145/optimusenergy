@@ -1,100 +1,92 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- About Start -->
-<div class="about mt-125">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="about-img">
-                    <div class="about-img-1">
-                        <img src="img/about-2.jpg" alt="Image">
-                    </div>
-                    <div class="about-img-2">
-                        <img src="img/about-1.jpg" alt="Image">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="section-header">
-                    <p>Our Expertise</p>
-                    <h2>25 Years of Energy Solutions</h2>
+<section class="about mt-125">
+  <div class="container">
+    <div class="section-header text-center">
+  
+<h3 class="vision-heading">Our Vision and Mission</h3>
 
-                </div>
-                <div class="about-text">
-                    <p>
-                        With over 25 years of experience, we specialize in delivering advanced Energy Management Systems (EMS) and industrial solutions that optimize energy performance, operational efficiency, and sustainability. Our services span power quality analysis, energy audits, predictive maintenance, smart grid solutions, and industrial automation, tailored to meet the unique needs of diverse commercial and industrial clients.
-                    </p>
-
-                    <!-- Hidden paragraph -->
-                    <p id="moreText" style="display: none;">
-                        Leveraging real-time data, IoT integration, and intelligent analytics, our team provides end-to-end solutions from system design and implementation to monitoring and continuous optimization. We help businesses reduce energy costs, minimize downtime, enhance equipment life, and achieve regulatory compliance. Over the years, we have empowered organizations to transform their energy infrastructure, adopt renewable solutions, and move towards a greener, more sustainable future.
-                    </p>
-
-                    <a class="btn" href="javascript:void(0);" id="learnMoreBtn" onclick="toggleText()">Learn More</a>
-                </div>
-            </div>
-
-            <script>
-                function toggleText() {
-                    const moreText = document.getElementById("moreText");
-                    const btn = document.getElementById("learnMoreBtn");
-
-                    if (moreText.style.display === "none") {
-                        moreText.style.display = "block"; // Show the paragraph
-                        btn.textContent = "Read Less"; // Change button text
-                    } else {
-                        moreText.style.display = "none"; // Hide the paragraph
-                        btn.textContent = "Learn More"; // Change back
-                    }
-                }
-            </script>
-
-        </div>
     </div>
-</div>
+
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="about-img">
+<img src="img/Vision_mision.png" 
+     alt="About Vision" 
+     class="img-fluid rounded shadow-sm"
+     style="width: 550px; height: 300px;">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="about-text">
+          <p>
+            Impulse Electro Systems is one of the pioneers in industrial and domestic electrical services across Tamil Nadu. 
+            We provide energy-saving and power-quality products designed with the latest advancements in technology and engineering. 
+            Our products empower your machinery and bring life to every corner of your home with sustainable energy solutions.
+          </p>
+          <p>
+            We are committed to saving our global environment through innovative energy-saving products, fulfilling the electrical 
+            needs of both domestic and industrial consumers with excellence and responsibility.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="about-card">
+          <h3>Customer Fidelity</h3>
+          <p>
+            To earn customer respect and loyalty by consistently providing timely, world-class, 
+            and the highest quality products and services.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Growth</h3>
+          <p>
+            To recognize and seize opportunities for growth that build upon our strengths and competencies. 
+            We are now expanding to serve clients across India.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Innovativeness</h3>
+          <p>
+            To develop and deliver useful and innovative products, services, and solutions that empower 
+            businesses and individuals to achieve more.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <!-- <div class="about-card"> -->
+          <h3>Our Merits</h3>
+          <ul>
+            <li>Unique and creative solutions that exceed client expectations while maintaining ethical standards of power consumption and machinery longevity.</li>
+            <li>Continuous search for opportunities beyond agreed objectives.</li>
+            <li>Creative approaches tailored to each client’s special needs.</li>
+            <li>Teamwork built on progressive communication and professionalism.</li>
+            <li>Courage and readiness to communicate on behalf of clients in challenging situations.</li>
+            <li>Strong technological background.</li>
+            <li>Collaboration with highly skilled technical mentors.</li>
+          </ul>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+</section>
 <!-- About End -->
 
-  
-<!-- Feature Start -->
-<div class="feature">
-    <div class="container">
-        <div class="row align-items-end">
-            <div class="col-md-6">
-                <div class="feature-img">
-                    <img src="img/business-man.png" alt="Image">
-                </div>
-            </div>
-            <div class="col-md-6">
-                   <div class="section-header">
-                    <p>Our Expertise</p>
-                    <h2>Why Choose Our Energy Solutions?</h2>
-
-                </div>
-                <p>
-                    With over two decades of proven experience, we are committed to delivering innovative, reliable, and results-driven solutions.
-                    Our team combines technical expertise with strategic insight to help businesses achieve sustainable growth and operational excellence.
-                    We focus on quality, transparency, and customer satisfaction in every project we undertake, ensuring long-term success and trusted partnerships.
-                    <br><br>
-                    • Our experts continuously adapt to the latest technologies and energy standards to deliver future-ready solutions. <br>
-                    • We design tailor-made strategies to optimize energy efficiency and reduce operational costs. <br>
-                    • Every project undergoes rigorous quality checks to ensure maximum performance and reliability. <br>
-                    • We emphasize eco-friendly and sustainable practices to minimize environmental impact. <br>
-                    • Our client-focused service ensures seamless communication and satisfaction. <br>
-                    • We foster long-term partnerships built on trust and measurable results. <br>
-                </p>
-
-           
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Achievement Start -->
 <section class="achievement-section py-5">
   <div class="container">
     <div class="section-header text-center mb-5">
       <p>Our Achievements</p>
-      <h2>Milestones That Define Our Success</h2>
+      <h3>Milestones That Define Our Success</h3>
       <p>
         We take pride in our journey of innovation, dedication, and excellence —
         shaping a sustainable energy future.

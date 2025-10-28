@@ -1954,10 +1954,11 @@ a:focus {
 .logo-slide img {
   max-width: 150px;
   max-height: 80px;
-  filter: grayscale(100%);
+  filter: none;        
+  opacity: 1;          
   transition: all 0.3s ease;
-  opacity: 0.8;
 }
+
 
 .logo-slide img:hover {
   filter: grayscale(0%);
@@ -1990,7 +1991,7 @@ a:focus {
 
 /* Logo completed */
 
-/* ==== Achievement Section ==== */
+/* ==== Achievement Start ==== */
 .achievement-section {
   background: #f9fafc;
   padding: 80px 0;
@@ -2061,7 +2062,130 @@ a:focus {
     text-align: center;
   }
 }
+/* Achivement completed  */
 
+.about {
+  padding: 80px 0;
+}
+
+.about .section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about .section-header p {
+  color: #007bff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-img img {
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+}
+
+.about-img img:hover {
+  transform: scale(1.03);
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-card {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  background: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h3 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-card ul {
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-card ul li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.about-card ul li::before {
+  content: "•";
+  color: #007bff;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+.vision-heading {
+  text-align: center; 
+  margin-right: -200px; /
+}
+/* Service Sidebar Start */
+.sidebar {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  position: sticky;
+  top: 20px; 
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+/* SIDEBAR COMPLETED  */
+
+/* Footer Address Alingment Star */
+.footer-contact {
+  line-height: 1.7;
+  color: #fff; 
+}
+.footer-contact i {
+ 
+  width: 22px; 
+}
+.address-block,
+.email-block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.address-block i,
+.email-block i {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.address-block span,
+.email-block span {
+  display: inline-block;
+  text-align: left;
+}
+/* Footer Address Alignment Completed */
 @media (max-width: 992px) {
     .sidebar {
         padding-left: 0;

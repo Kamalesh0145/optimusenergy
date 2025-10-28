@@ -5,25 +5,41 @@
                     <div class="col-lg-7">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="footer-contact">
-                                    <h2>Our Head Office</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>12/94.Sathiyamoorthy Nagar<br>
-                                        Thomas Cross Road<br>
-                                        Opp.Central Warehouse<br>
-                                        Ellis Nagar<br>
-                                        Maduari-625016</p>
-                                    <p><i class="fa fa-phone-alt"></i>+91 99943 44816</p>
-                                    <p><i class="fa fa-envelope"></i> admin@optimusenergy.in
-                                        technical@optimusenergy.in</p>
-                                    <div class="footer-social">
+                           <div class="footer-contact">
+  <h2>Our Head Office</h2>
+  
+  <p class="address-block">
+    <i class="fa fa-map-marker-alt"></i>
+    <span>
+      12/94. Sathiyamoorthy Nagar<br>
+      Thomas Cross Road<br>
+      Opp. Central Warehouse<br>
+      Ellis Nagar<br>
+      Madurai - 625016
+    </span>
+  </p>
+
+  <p>
+    <i class="fa fa-phone-alt"></i> +91 99943 44816
+  </p>
+
+  <p class="email-block">
+    <i class="fa fa-envelope"></i>
+    <span>
+      admin@optimusenergy.in<br>
+      technical@optimusenergy.in
+    </span>
+  </p>
+</div>
+
+                            </div>
+                              <!-- <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
                                         <a href=""><i class="fab fa-youtube"></i></a>
                                         <a href=""><i class="fab fa-instagram"></i></a>
                                         <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> -->
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Quick Links</h2>
