@@ -38,7 +38,7 @@
                     </div>
                     <div class="contact-text">
                         <h3>Call for Help</h3>
-                        <p>+91 73388 99156 </p>
+                        <p>+91 99943 44816 </p>
                     </div>
                 </div>
                 <div class="contact-info">
